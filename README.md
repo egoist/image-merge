@@ -4,6 +4,17 @@
 
 > Merge multiple images into one!
 
+## Prerequisites
+
+You should have [GraphicsMagick](http://www.graphicsmagick.org/) installed first:
+
+```bash
+# use homebrew if you're on a Mac
+$ brew install graphicsmagick
+# otherwise head to official installation guide
+# http://www.graphicsmagick.org/README.html#installation
+```
+
 ## Install
 
 ```bash
