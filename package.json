@@ -1,0 +1,44 @@
+{
+  "name": "image-merge",
+  "version": "0.0.0",
+  "description": "Merge multiple images into one!",
+  "license": "MIT",
+  "repository": "egoist/image-merge",
+  "author": {
+    "name": "EGOIST",
+    "email": "0x142857@gmail.com",
+    "url": "github.com/egoist"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo",
+    "example": "rm -f fixtures/output.jpg && ./cli.js fixtures/a.png fixtures/b.png -o fixtures/output.jpg"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "images",
+    "cli",
+    "merge",
+    "gm"
+  ],
+  "dependencies": {
+    "cac": "^2.3.1",
+    "gm": "^1.23.0"
+  },
+  "devDependencies": {
+    "xo": "latest"
+  },
+  "xo": {
+    "semicolon": false,
+    "space": 2,
+    "rules": {
+      "curly": ["error", "multi-line", "consistent"]
+    }
+  }
+}
