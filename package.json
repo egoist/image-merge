@@ -1,6 +1,6 @@
 {
   "name": "image-merge",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Merge multiple images into one!",
   "license": "MIT",
   "repository": "egoist/image-merge",
@@ -38,7 +38,11 @@
     "semicolon": false,
     "space": 2,
     "rules": {
-      "curly": ["error", "multi-line", "consistent"]
+      "curly": [
+        "error",
+        "multi-line",
+        "consistent"
+      ]
     }
   }
 }
